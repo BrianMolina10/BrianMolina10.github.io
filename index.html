@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta charset="utf-8" />
+		<title>API call</title>
+		<link rel="stylesheet" href="css/album.css" />
+		<script src="./js/api.js"></script>
+	</head>
+	<body>
+		<div class="header">
+			<h1>Album Libary</h1>
+			<img class="logo" src="./images/logo.png" alt="LOGO" />
+		</div>
+		<div id="app">
+			<h2>Most listened to albums this month</h2>
+			<p class="greeting"><b>Click an Album to view details!</b></p>
+			<div class="button-grid">
+				<img src="./images/coverOne.jpg" alt="COVERONE" />
+				<button class="button-one" onclick="req1();">Album 1</button>
+				<img src="./images/coverTwo.jpg" alt="COVERTWO" />
+				<button class="button-two" onclick="req2()">Album 2</button>
+				<img src="./images/coverThree.jpg" alt="COVERTHREE" />
+				<button class="button-three" onclick="req3()">Album 3</button>
+				<img src="./images/coverFour.jpg" alt="COVERFOUR" />
+				<button class="button-four" onclick="req4()">Album 4</button>
+			</div>
+		</div>
+		<div class="output-grid">
+			<div class="album-id">
+				<b>Album Rank:</b>
+				<span id="id"></span>
+			</div>
+			<div class="album-title">
+				<b>Album Title:</b>
+				<span id="title"></span>
+			</div>
+		</div>
+		<footer class="footer">
+			<p class="text-footer">
+				Copyright ©-All rights are reserved
+			</p>
+		</footer>
+	</body>
+</html>
