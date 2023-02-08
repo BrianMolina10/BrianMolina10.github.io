@@ -1,0 +1,85 @@
+body {
+    background-color: whitesmoke;
+}
+
+h1 {
+    text-align: center;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    text-align: center;
+    background: white;
+    color: black;
+    font-size: 15px;
+}
+
+.button-grid {
+    display: grid;
+    position: absolute;
+    gap: 10px;
+    padding: 10px;
+    width: 70px;
+}
+
+.output-grid {
+    display: grid;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100px;
+    height: 100px;
+}
+
+footer {
+    background-color: white;
+    margin-top: 100vh;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+}
+
+.text-footer {
+    text-align: center;
+    padding: 8px;
+    font-family: "Ubuntu", sans-serif;
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+
+img.logo {
+    border-radius: 50%;
+    max-width: 100%;
+    height: auto;
+    max-height: 100%;
+    position: relative;
+}
+
+img {
+    display: block;
+    width: 70px;
+    height: 55px;
+    object-fit: cover;
+}
+
+h2 {
+    text-align: center;
+}
+
+div.album-id {
+    text-align: center;
+}
+
+div.album-title {
+    text-align: center;
+}
